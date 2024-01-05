@@ -24,9 +24,9 @@ app.use("/suser", customerrouter);
 app.post("/createorder", createOrder);
 app.post("/verifypayment", verfiyOrder);
 
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "./client/build")));
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"), (err) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"), (err) => {
     res.status(500).send(err);
   });
 });
