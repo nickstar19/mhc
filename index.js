@@ -25,15 +25,10 @@ app.use("/suser", customerrouter);
 app.post("/createorder", createOrder);
 app.post("/verifypayment", verfiyOrder);
 
-<<<<<<< HEAD
-app.use(express.static(path.join(__dirname, "/client/build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "/client/build/index.html"), (err) => {
-=======
+
 app.use(express.static(path.join(__dirname, "./client/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"), (err) => {
->>>>>>> 10e71dba3656a6eb6d3cb7eb463af7a275ae0b66
     res.status(500).send(err);
   });
 });
