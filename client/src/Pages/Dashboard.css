@@ -1,0 +1,68 @@
+.DashboardBg {
+  background-image: url("https://images.pexels.com/photos/11285444/pexels-photo-11285444.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/220152/pexels-photo-220152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 20vh;
+}
+.DashboardUserProfile img {
+  position: absolute;
+  top: 0;
+  transform: translate(-110%, -50%);
+  width: 150px;
+  border-radius: 50%;
+  z-index: 99;
+}
+.DashboardUserProfile {
+  position: relative;
+  padding: 2rem 0px;
+  display: flex;
+  width: min(720px, 98%);
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+.DashboardUserProfile button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  padding: 4px 20px;
+  background-color: #324dc7;
+  color: #fff;
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+.DashboardContent {
+  width: min(720px, 98%);
+  margin: 0px auto;
+}
+.DashboardContent {
+  margin-top: 3rem;
+}
+
+.gird-table {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding: 1rem;
+  background-color: #324dc7;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.gird-table > * {
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 880px) {
+  .DashboardUserProfile {
+    display: block;
+  }
+  .DashboardUserProfile button {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 0px;
+    display: inline-block;
+  }
+  .gird-table {
+    font-size: 14px;
+  }
+}

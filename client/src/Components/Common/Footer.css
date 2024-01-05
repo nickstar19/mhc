@@ -1,0 +1,9 @@
+footer {
+  background-color: #1e1e1e;
+}
+footer * {
+  color: #fff;
+}
+footer a {
+  text-decoration: none;
+}

@@ -1,0 +1,56 @@
+section {
+  background-color: #f5f7fc;
+}
+.container {
+  width: min(87rem, 98%);
+  margin: 64px auto 0px auto;
+  padding: 48px 24px;
+}
+.container h2 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.3rem;
+}
+.container-cards .card > div {
+  background-color: #263a99;
+  height: 1rem;
+  border-radius: 20px;
+}
+.container-cards {
+  display: flex;
+  margin-top: 1.8rem;
+}
+.container-cards .card {
+  background-color: #fff;
+  margin: 0 12px 0px 12px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(30, 30, 30, 0.15) 0px 2px 11px 0px;
+  max-width: 324px;
+}
+.container-cards .card h4 {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 24px;
+}
+.container-cards .card h3 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.37px;
+}
+.container-cards .card p {
+  font-size: 14px;
+  letter-spacing: -0.3px;
+  line-height: 20px;
+  margin: 8px 64px 0 64px;
+  max-width: 324px;
+}
+
+@media only screen and (max-width: 880px) {
+  .container-cards {
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 356px;
+  }
+}

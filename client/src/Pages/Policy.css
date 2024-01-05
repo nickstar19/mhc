@@ -1,0 +1,11 @@
+.policy{
+    margin: 0 auto 0 auto ;
+    width:min(62rem,90%);
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.CourseClgList table {
+  width: min(720px, 98%);
+  margin: 1rem auto;
+}
+
+.CourseClgList table th {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+.CourseClgList table td {
+  padding: 1rem;
+  border: 1px solid #333;
+}
+.CourseClgList {
+  min-height: 100vh;
+}

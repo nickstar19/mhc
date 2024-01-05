@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1e1e1e;
+  font-family: "Roboto", sans-serif;
+}
+.center-div {
+  width: min(85.5rem, 90%);
+  margin: 0 auto;
+}
+.btn-1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid #1e1e1e;
+  padding: 12px 24px;
+  margin: 1rem;
+  background-color: #fff;
+  border-radius: 24px;
+}
+.btn-2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  padding: 8px 20px;
+  background-color: #324dc7;
+  color: #fff;
+  border-radius: 12px;
+  float: right;
+}
+.ft-h2-page {
+  width: min(720px, 95%);
+  margin: 2rem auto;
+}

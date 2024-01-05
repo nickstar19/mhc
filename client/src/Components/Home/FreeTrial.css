@@ -1,0 +1,34 @@
+.FreeTrial {
+  background-color: #f5f7fc;
+  width: min(87rem, 95%);
+  margin: 64px auto;
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: rgba(30, 30, 30, 0.15) 0px 2px 11px 0px;
+  scale: 0.9;
+}
+.FreeTrial > div {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(72rem, 95%);
+}
+.FreeTrial h2 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01px;
+  line-height: 32px;
+}
+.FreeTrial p {
+  font-size: 16px;
+  letter-spacing: -0.01px;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 880px) {
+  .FreeTrial > div {
+    flex-direction: column;
+    text-align: center;
+  }
+}

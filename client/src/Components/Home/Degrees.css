@@ -1,0 +1,20 @@
+.degree-cards {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.degree-cards .card {
+  padding: 24px 20px;
+  border: 0.8px solid #1e1e1e;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 880px) {
+  .degree-cards {
+    padding: 1rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

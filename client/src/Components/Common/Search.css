@@ -1,0 +1,16 @@
+.searchBox {
+  border: 1px solid #d9d9d9;
+  max-width: min(720px, 90%);
+  margin: 2rem auto;
+  line-height: 24px;
+  border-radius: 20px;
+  padding: 11px 16px;
+  display: flex;
+  align-items: center;
+}
+.searchBox input {
+  width: 100%;
+  border: none;
+  outline: transparent;
+  font-size: 1rem;
+}
