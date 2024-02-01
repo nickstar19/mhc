@@ -60,7 +60,7 @@ const Profile = ({ collegeList }) => {
                   <a
                     className="college__detail college__btn"
                     target="blank"
-                    href={`https://fe2022.mahacet.org/StaticPages/frmInstituteSummary?InstituteCode=1002${singlecollege.dte}`}
+                    href={`https://fe2023.mahacet.org/StaticPages/frmInstituteSummary?InstituteCode=${singlecollege.dte}`}
                   >
                     College Details
                   </a>
